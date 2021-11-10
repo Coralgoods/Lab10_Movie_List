@@ -1,0 +1,6 @@
+/Users/eduardodiaz/Documents/Labs and Deliverables/Lab10_movie_list/bin/Debug/Lab10_movie_list.exe
+/Users/eduardodiaz/Documents/Labs and Deliverables/Lab10_movie_list/bin/Debug/Lab10_movie_list.pdb
+/Users/eduardodiaz/Documents/Labs and Deliverables/Lab10_movie_list/obj/Debug/Lab10_movie_list.csproj.AssemblyReference.cache
+/Users/eduardodiaz/Documents/Labs and Deliverables/Lab10_movie_list/obj/Debug/Lab10_movie_list.csproj.CoreCompileInputs.cache
+/Users/eduardodiaz/Documents/Labs and Deliverables/Lab10_movie_list/obj/Debug/Lab10_movie_list.exe
+/Users/eduardodiaz/Documents/Labs and Deliverables/Lab10_movie_list/obj/Debug/Lab10_movie_list.pdb
