@@ -78,7 +78,7 @@ namespace Lab10_movie_list
             {
                 int userInput;
 
-                Console.WriteLine("What category are you interested in?");
+                Console.WriteLine("What category are you interested in? (Animated = 1, Drama = 2, horror = 3, SciFi = 4)");
                 bool successInput = int.TryParse(Console.ReadLine(), out userInput);
 
                 if (successInput)
