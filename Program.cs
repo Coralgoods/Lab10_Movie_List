@@ -26,6 +26,7 @@ namespace Lab10_movie_list
         public static void DisplayListForUser(List<Movie> movies)
         {
             bool redo = false;
+            string userInput = ""; 
 
             //Provide list based on user input
             do
@@ -45,7 +46,9 @@ namespace Lab10_movie_list
                     Console.WriteLine("");
                     Console.WriteLine("Continue(y/n)?");
 
-                    string userInput = Console.ReadLine();
+                    
+                    userInput = Console.ReadLine();
+
                     if (!string.IsNullOrEmpty(userInput))
                     {
                         inputerror = true;
@@ -54,6 +57,7 @@ namespace Lab10_movie_list
                     else
                     {
                         Console.WriteLine("Sorry, your input is not valid. Try again.");
+                        continue; 
                     }
 
 
