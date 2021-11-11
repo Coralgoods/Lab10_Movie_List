@@ -49,10 +49,11 @@ namespace Lab10_movie_list
                     if (!string.IsNullOrEmpty(userInput))
                     {
                         inputerror = true;
+                        
                     }
                     else
                     {
-                        //Do nothing. 
+                        Console.WriteLine("Sorry, your input is not valid. Try again.");
                     }
 
 
@@ -92,7 +93,8 @@ namespace Lab10_movie_list
                 }
                 else
                 {
-                 //Do nothing 
+                    Console.WriteLine("Sorry, your input is not valid. Try again.");
+                    Console.WriteLine("");
                 }
 
             } while (!inputerror);
